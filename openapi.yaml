@@ -7,6 +7,9 @@ info:
     > ⚠️ **Hinweis:** Dies ist eine **inoffizielle** Dokumentation der API-Endpunkte von 
     > [myTischtennis.de](https://www.mytischtennis.de). Sie wurde durch Analyse 
     > der öffentlich im Browser (Network Tab) sichtbaren Requests erstellt.
+    
+    > 📂 **Repository:** [github.com/notMYcupofTeeTee/mytt-api](https://github.com/notMYcupofTeeTee/mytt-api)
+
 
     ## Warum diese Dokumentation?
 
@@ -38,6 +41,9 @@ info:
     Die API verwendet Rate Limiting (90 Requests pro Stunde). 
     Bei Überschreitung wird HTTP 429 zurückgegeben.
   version: 1.0.0
+  contact:
+    name: GitHub Repository
+    url: https://github.com/notMYcupofTeeTee/mytt-api
   license:
     name: MIT
     url: https://opensource.org/licenses/MIT
