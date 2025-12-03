@@ -1,6 +1,11 @@
 # myTischtennis API Dokumentation
 
+[![Dokumentation](https://img.shields.io/badge/📖_Dokumentation-online-green)](https://notmycupofteetee.github.io/mytt-api/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > ⚠️ **Inoffizielle Dokumentation** – Erstellt durch Community-Analyse
+
+**📖 [Interaktive Dokumentation ansehen](https://notmycupofteetee.github.io/mytt-api/)**
 
 ## Worum geht es?
 
@@ -34,14 +39,13 @@ Vielleicht lässt sich hiermit eine Diskussion über **Open Data im deutschen Ti
 
 ## Dokumentation ansehen
 
-Die API-Dokumentation kann mit [Redocly](https://redocly.github.io/redoc/) oder [Swagger UI](https://swagger.io/tools/swagger-ui/) gerendert werden:
+**👉 [https://notmycupofteetee.github.io/mytt-api/](https://notmycupofteetee.github.io/mytt-api/)**
+
+Oder lokal starten:
 
 ```bash
-# Mit npx (keine Installation nötig)
-npx @redocly/cli preview-docs openapi.yaml
-
-# Oder online unter:
-# https://redocly.github.io/redoc/?url=YOUR_RAW_YAML_URL
+npm install
+npm run preview
 ```
 
 ## Endpunkt-Kategorien
