@@ -1,0 +1,23 @@
+{
+  "name": "mytischtennis-api-docs",
+  "version": "1.0.0",
+  "description": "Inoffizielle API-Dokumentation für myTischtennis.de",
+  "scripts": {
+    "build": "redocly build-docs openapi.yaml -o docs/index.html --disableGoogleFont",
+    "preview": "redocly preview-docs openapi.yaml",
+    "lint": "redocly lint openapi.yaml"
+  },
+  "keywords": [
+    "openapi",
+    "tischtennis",
+    "api",
+    "documentation"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@redocly/cli": "^2.12.1"
+  },
+  "dependencies": {
+    "yaml": "^2.8.2"
+  }
+}
